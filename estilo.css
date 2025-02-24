@@ -68,8 +68,52 @@ color: white;
 	display: table-cell;
 	vertical-align: middle;
 }
+
+/*Imagem de Capa*/
+
 .btn-capa{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 10px 35px;
+	margin: 0px 15px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s ;
+
+}
+.btn-roxo{
+	background: #7c25f8;
+}
+
+.btn-roxo:hover{
+	background-color: #6207e3;
+}
+
+.btn-branco{
+	border: 2px solid white;
+}
+
+.btn-branco:hover{
+	border: 2px solid white;
 	background: white;
+	color: black;
+}
+
+/*======CONTEUDO=======*/
+#serviços{
+	background: white;
+	padding: 20px 0px;
+}
+
+.coluna-img{
+	padding-bottom: 20px;
+	
+}
+
+#recursos{
+	padding: 20px 0px;
+	color: white;
 }
 
 /*========TIPOGRAFIA========*/
@@ -77,4 +121,30 @@ h1 {
 	font-size: 100px;
 	font-weight: 900;
 	letter-spacing: -2px;
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3 {
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+#serviços h2, #serviços h3{
+	color: #7c25f8;
+	transition: color 0.4s ;
+}
+
+#serviços h2, #serviços h3:hover{
+	color: #6207e3;
+}
+
+#recursos h3{
+	color: #9bf0e1;
 }
