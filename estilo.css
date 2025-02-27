@@ -2,6 +2,7 @@
 
 html, body, .capa{
 	height: 100%;
+	overflow: auto;
 }
 body{
 	background: url("imagens/capa.png"), 
@@ -199,4 +200,32 @@ footer h4{
 
 }
 
+@media screen and (max-width:767px){
+	h1{
+		font-size: 50px;
+	}
+	.btn-capa{
+		margin: 10px 15px;
+	}
+}
 
+@media screen and (min-width:768px){
+	h1{
+		font-size: 70px;
+	}
+	
+}
+
+@media screen and (min-width:992px){
+	h1{
+		font-size: 80px;
+	}
+	
+}
+
+@media screen and (min-width:1200px){
+	h1{
+		font-size: 100px;
+	}
+	
+}
